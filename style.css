@@ -1,15 +1,8 @@
 
-
-body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
-  }
-  
   li {
     list-style: none;
   }
-  
+  /* header */
   .header {
     background-color: #061111;
     color: #fff;
@@ -26,7 +19,7 @@ body {
     float: left;
     padding: 33px 20px;
   }
-
+/* main */
   .main {
     padding: 100px 80px;
   }
@@ -54,6 +47,7 @@ body {
   .copy-container span {
     color: #e7d512;
   }
+  /* tentang saya */
   .about {
     background-color: #e0d2a6;
     color: #000000;
@@ -71,6 +65,7 @@ body {
     text-align: center;
     
   }
+  /* proyek */
   .contents {
     height: 500px;
     margin-top: 100px;
@@ -80,8 +75,6 @@ body {
     text-align: center;
     border-bottom: 2px solid #dee7ec;
     font-size: 28px;
-    /* padding-bottom: 15px;
-    margin-bottom: 50px; */
   }
   
   .contents-item {
@@ -101,32 +94,41 @@ body {
     margin-top: 20px;
     text-align: center;
   }
-  
+  /* hubungi */
   .contact-form {
-    padding-top: 50px;
+    padding: 50px 20px;
     background-color: #e0d2a6;
     text-align: center;
 
   }
   
   input,textarea {
-    width: 400px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding :20px;
     font-size : 18px;
     border :  #ffe4e4;
-    border-radius: 20%;
     background-color:#dce3c3;
   }
-  
-  /* Tambahkan CSS untuk contact-submit */
+  input{
+    width: 500px;
+    height: 20px;
+    border-radius: 20px;
+  }
+  textarea{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+  }
   .contact-submit {
     width: 300px;
+    height: 50px;
     background-color: #ecd611;
     color: #000000;
+    border-radius: 10px;
   }
-  
+
+  /* footer */
   .footer {
     background-color: #414243;
     color: #fff;
